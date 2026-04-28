@@ -8,23 +8,53 @@
 </head>
 <body>
 
-    <header class="hero">
-        <nav>
-            <h2>Jose Lopez</h2>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+<header class="hero">
+    <nav>
+        <h2>Jose Lopez</h2>
+        <ul>
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
 
-        <div class="hero-content">
-            <h1>Frontend Developer</h1>
-            <p>Creo interfaces modernas y experiencias web atractivas.</p>
-            <button>Ver proyectos</button>
+    <div class="hero-content">
+        <h1>Frontend Developer</h1>
+        <p>Creo interfaces modernas y experiencias web atractivas.</p>
+        <a href="#projects"><button>Ver proyectos</button></a>
+    </div>
+</header>
+
+<section id="about" class="section">
+    <h2>Sobre mí</h2>
+    <p>
+        Soy ingeniero de sistemas enfocado en desarrollo frontend.
+        Me apasiona crear interfaces modernas, responsivas y fáciles de usar.
+    </p>
+</section>
+
+<section id="projects" class="section dark">
+    <h2>Proyectos</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Landing Page</h3>
+            <p>Landing page moderna creada con HTML y CSS.</p>
         </div>
-    </header>
+        <div class="card">
+            <h3>Proyecto API (Próximamente)</h3>
+            <p>Aplicación web consumiendo APIs.</p>
+        </div>
+        <div class="card">
+            <h3>Clon Web (Próximamente)</h3>
+            <p>Replica de página popular.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contacto</h2>
+    <p>Email: jose.lopez-gu@uniminuto.edu.co</p>
+</section>
 
 </body>
 </html>
