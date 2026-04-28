@@ -3,8 +3,10 @@
     padding:0;
     box-sizing:border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
 }
 
+/* HERO */
 .hero{
     height:100vh;
     background: linear-gradient(120deg,#0f172a,#1e293b);
@@ -26,8 +28,10 @@ nav ul{
 nav a{
     color:white;
     text-decoration:none;
+    font-weight:bold;
 }
 
+/* HERO CONTENT */
 .hero-content{
     height:80%;
     display:flex;
@@ -54,4 +58,29 @@ button{
     font-size:18px;
     border-radius:5px;
     cursor:pointer;
+}
+
+/* SECTIONS */
+.section{
+    padding:80px 120px;
+    text-align:center;
+}
+
+.dark{
+    background:#f1f5f9;
+}
+
+.projects{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
